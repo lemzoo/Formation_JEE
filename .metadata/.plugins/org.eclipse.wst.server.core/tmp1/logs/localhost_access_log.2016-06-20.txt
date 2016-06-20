@@ -1,0 +1,13 @@
+127.0.0.1 - - [20/Jun/2016:17:21:59 +0200] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:21:59 +0200] "GET /TP_01__Calculateur_JSP/ HTTP/1.1" 200 1045
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:22:13 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 404 1077
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:22:37 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 500 2951
+127.0.0.1 - - [20/Jun/2016:17:26:15 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 433
+127.0.0.1 - - [20/Jun/2016:17:26:50 +0200] "GET /TP_01__Calculateur_JSP/AcceptInput.html HTTP/1.1" 200 1044
+127.0.0.1 - - [20/Jun/2016:17:28:04 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 433
+127.0.0.1 - - [20/Jun/2016:17:28:13 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 434
+127.0.0.1 - - [20/Jun/2016:17:28:54 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 434
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:33:46 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 500 2846
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:33:53 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 434
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:35:50 +0200] "GET /TP_01__Calculateur_JSP/ HTTP/1.1" 200 997
+0:0:0:0:0:0:0:1 - - [20/Jun/2016:17:36:04 +0200] "POST /TP_01__Calculateur_JSP/Calculate.jsp HTTP/1.1" 200 442

@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.company.tp.test;
+
+import javax.servlet.http.HttpServlet;
+
+/**
+ * MaClasse est une classe héritant de la classe HttpServlet. 
+ * 
+ * 
+ * @author Lamine BA
+ *
+ */
+public class MaClasse extends HttpServlet {
+
+}

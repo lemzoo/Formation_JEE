@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.person;
+
+/**
+ * @author ib
+ *
+ */
+public class Person {
+
+}

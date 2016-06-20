@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mon premier fichier HTML</title>
+</head>
+<body>
+<header>Ceci est le header</header>
+<h1>Premier projet Java JEE</h1>
+<main>
+	Ceci est le main
+</main>
+<footer>
+Ceci est le footer
+</footer>
+</body>
+</html>

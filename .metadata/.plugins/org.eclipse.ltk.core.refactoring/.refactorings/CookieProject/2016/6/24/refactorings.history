@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.company.tp&apos; to &apos;com.company.tp.cookie&apos;&#x0D;&#x0A;- Original project: &apos;CookieProject&apos;&#x0D;&#x0A;- Original element: &apos;CookieProject/src/com.company.tp&apos;&#x0D;&#x0A;- Renamed element: &apos;CookieProject/src/com.company.tp.cookie&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.company.tp&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.company.tp" name="com.company.tp.cookie" qualified="false" references="true" stamp="1466172858840" textual="false" version="1.0"/>
+</session>

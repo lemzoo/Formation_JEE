@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mon premier fichier HTML</title>
+<style>
+	body{
+		background-color : rgba(255,220,220,0.8);
+	}
+</style>
+</head>
+<body>
+<header style="background-color : rgba(255,255,220,0.8);">
+	<h1>Premier projet Java JEE</h1>
+	<hr>
+</header>
+
+<main style="background-color : rgba(0,220,220,0.8);">
+	<p>Ceci est le main</p>
+	<hr>
+</main>
+<footer >
+	Ceci est le footer
+</footer style="background-color : rgba(0,255,220,0.8);">
+</body>
+</html>

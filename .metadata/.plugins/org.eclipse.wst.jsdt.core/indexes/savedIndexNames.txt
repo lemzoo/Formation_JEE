@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2838252120.index
+2110099340.index
+2034638654.index
+260460043.index
+107573622.index
+2469388504.index
+2039546533.index
+120980145.index
+2692673240.index

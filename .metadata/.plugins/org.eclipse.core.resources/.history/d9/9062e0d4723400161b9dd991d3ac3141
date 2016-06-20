@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.company.tp.test;
+
+import javax.servlet.http.HttpServlet;
+
+/**
+ * @author ib
+ *
+ */
+public class MaClasse extends HttpServlet {
+
+}
