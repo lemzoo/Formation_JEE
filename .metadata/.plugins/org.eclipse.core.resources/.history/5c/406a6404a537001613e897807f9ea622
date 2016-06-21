@@ -1,0 +1,33 @@
+<!DOCtype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AddInformation</title>
+</head>
+<body>
+<section>
+	<b>Information Client</b>
+	<form name="login" method="Post" action="affiche">
+		<table>
+			<tr>
+				<td>Nom</td>
+				<td><input type=text name="nom"></td>
+			</tr>
+			<tr>
+				<td>Prénom</td>
+				<td><input type=text name="prenom"></td>
+			</tr>
+			<tr>
+				<td>Adresse</td>
+				<td><input type=text name="adresse"></td>
+			</tr>
+			<tr>
+				<td>Poste</td>
+				<td><input type=text name="poste"></td>
+			</tr>
+		</table>
+		<input type="submit" value="Valider">
+	</form>
+</section>
+</body>
+</html>

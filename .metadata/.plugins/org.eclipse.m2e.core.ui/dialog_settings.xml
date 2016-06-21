@@ -2,11 +2,25 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.capgemini.tp"/>
+			<item value="com.capgemini.tp.JSP_Servlet"/>
+			<item value="com.capgemini.tp.labj4"/>
+			<item value="com.test.toto"/>
 			<item value="com.capgemini.tp.jee"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TP_S06_Formulaire"/>
+			<item value="TP_S05__Recuperer_Attribut"/>
+			<item value="TP_S04__Initialisation_Globale"/>
+			<item value="TP_S03_Initialisation_Servlet"/>
+			<item value="TP_S03"/>
+			<item value="TP_07__HttpHeaders"/>
+			<item value="TP_06__JSP_Servlet_Javabean"/>
+			<item value="TP_05__JSP_Servlet"/>
+			<item value="TP_04__JSP_JavaBean"/>
+			<item value="test"/>
 			<item value="TP_01__Calculateur_JSP"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,6 +59,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_S05__Recuperer_Attribut\pom.xml"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_S04__Initialisation_Globale"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_S03_Initialisation_Servlet\src\main\java\com\capgemini\tp\servlet\MaServlet.java"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_04__JSP_JavaBean"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

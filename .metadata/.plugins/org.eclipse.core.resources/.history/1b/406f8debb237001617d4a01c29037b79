@@ -1,0 +1,10 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.capgemini.tp</groupId>
+  <artifactId>TP_S03_Initialisation_Servlet</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <description>Afficher le paramètre définit dans la declaration d’une servlet  dans le fichier web.xml
+Le nom du paramètre est Device et la valeur Euro
+</description>
+</project>

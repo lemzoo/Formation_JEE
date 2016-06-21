@@ -1,0 +1,14 @@
+package com.capgemini.tp.servlet;
+
+public class RetrievingCntx {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String url = (String) getServletContext().getAttribute("URL");
+		
+	 PrintWriter out = response.getWriter();
+        response.setContentType("text/html");
+        out.println("<B>The URL value is </B>: " + url + "<BR>");
+        out.close();
+		
+	}
+
+}

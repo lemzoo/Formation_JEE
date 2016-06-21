@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.capgemini.tp</groupId>
+  <artifactId>TP_S05__Recuperer_Attribut</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <description>Créez une servlet (SettingCntx.java) et stocker un objet(String) sous le nom URL avec la valeur jdbc:odbc:EmployeesDB.
+Ecrire une autre servlet (RetrievingCntx.java) pour récuperer l’objet(String ) puis l’afficher.</description>
+</project>

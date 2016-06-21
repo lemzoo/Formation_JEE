@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Mathematical Functions</h2>
+	<font size="4" face="verdana" color="#112244"/>
+	<form method="POST" action="calcul">
+		<h3>Choose your operation</h3>
+		<input type="radio" name="operation" value="add" checked="false">Addition</br>
+		<input type="radio" name="operation" value="sub">Soustraction</br>
+		<input type="radio" name="operation" value="mil">Multiplication</br>
+		<input type="radio" name="operation" value="div">Division</br>
+		</br><br>
+		<h3>Enter two numbers</h3>
+		<table>
+			<tr>
+				<td>
+					<label>Enter the first number : </label>
+				</td>
+				<td>
+					<input type="number" name="valeur1" value="">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label>Enter the second number : </label>
+				</td>
+				<td>
+					<input type="number" name ="valeur2" value="">
+				</td>
+			</tr>
+		</table>
+		<br>
+        <input type="Submit" name="valider">
+
+	</form>
+</body>
+</html>

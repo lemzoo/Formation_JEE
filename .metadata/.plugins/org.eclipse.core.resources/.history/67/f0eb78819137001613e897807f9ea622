@@ -1,0 +1,5 @@
+package com.capgemini.tp.bean;
+
+public class Produit {
+
+}

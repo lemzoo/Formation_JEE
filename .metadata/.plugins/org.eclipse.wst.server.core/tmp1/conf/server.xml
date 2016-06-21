@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\TP_01__Calculateur_JSP" path="/TP_01__Calculateur_JSP" reloadable="true" source="org.eclipse.jst.jee.server:TP_01__Calculateur_JSP"/></Host>
+      <Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\TP_S06_Formulaire" path="/TP_S06_Formulaire" reloadable="true" source="org.eclipse.jst.jee.server:TP_S06_Formulaire"/></Host>
     </Engine>
   </Service>
 </Server>

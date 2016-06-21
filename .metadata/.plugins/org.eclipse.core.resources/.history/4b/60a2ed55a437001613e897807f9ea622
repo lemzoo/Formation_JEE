@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AddInformation</title>
+</head>
+<body>
+	<CENTER>
+		<B>Information Client</B>
+		<FORM NAME="login" METHOD="Post" ACTION="affiche">
+			<TABLE>
+				<TR>
+					<TD>Nom</TD>
+					<TD><INPUT TYPE=text NAME="nom"></TD>
+				</TR>
+				<TR>
+					<TD>Prénom</TD>
+					<TD><INPUT TYPE=text NAME="prenom"></TD>
+				</TR>
+				<TR>
+					<TD>Adresse</TD>
+					<TD><INPUT TYPE=text NAME="adresse"></TD>
+				</TR>
+				<TR>
+					<TD>Poste</TD>
+					<TD><INPUT TYPE=text NAME="poste"></TD>
+				</TR>
+			</TABLE>
+			<INPUT TYPE="submit" VALUE="Submit">
+		</FORM>
+	</CENTER>
+
+</body>
+</html>

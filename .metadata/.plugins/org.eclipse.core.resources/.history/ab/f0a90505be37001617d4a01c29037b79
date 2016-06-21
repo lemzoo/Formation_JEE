@@ -1,0 +1,5 @@
+package com.capgemini.tp.servlet;
+
+public class RetrievingCntx {
+
+}

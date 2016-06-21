@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.servlet;
+
+/**
+ * @author ib
+ *
+ */
+public class AfficheServlet {
+
+}

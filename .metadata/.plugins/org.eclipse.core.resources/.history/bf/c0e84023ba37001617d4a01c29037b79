@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TP_S04__Initialisation_Globale">
+        <property name="context-root" value="TP_S04__Initialisation_Globale"/>
+        <property name="java-output-path" value="/TP_S04__Initialisation_Globale/target/classes"/>
+    </wb-module>
+</project-modules>

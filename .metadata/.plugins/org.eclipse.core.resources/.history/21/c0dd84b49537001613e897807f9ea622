@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Opérations Arithmétiques</h2>
+
+		<form method="post" action="calcul">
+			<input type="radio" name="op" value="add">Addition <br>
+			<input type="radio" name="op" value="sub">Soustraction<br>
+			<input type="radio" name="op" value="div">Division<br>
+			<input type="radio" name="op" value="mul">Multiplication<br>
+			<br>
+			Entrer le premier nombre: <input type="text" name="num1" value=""> <br>
+			Entrer le second  nombre: <input type="text" name="num2" value=""> <br>
+			<br>
+			<input type="Submit" value="Calculer">
+		</form>
+	
+</body>
+</html>

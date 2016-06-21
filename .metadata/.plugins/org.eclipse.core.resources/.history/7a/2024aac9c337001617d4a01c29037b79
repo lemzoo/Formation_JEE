@@ -1,0 +1,61 @@
+package com.capgemini.tp.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ClientServlet
+ */
+@WebServlet("/ClientServlet")
+public class ClientServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ClientServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        
+		String nom=request.getParameter("nom");
+		String prenom=request.getParameter("prenom");
+		String adresse=request.getParameter("adresse");
+		int age;
+		try {
+			age = Integer.parseInt(request.getParameter("age"));
+		} catch (Exception e) {
+			age=0;
+		}
+		
+		out.println("<HTML><BODY>");
+		out.println("<H3>The employee information are:</H3><BR>");
+		out.println("<TABLE BORDER=1 WIDTH=80%>");
+		out.println("<TR>");
+	     out.println("<TH>NOM</TH><TH>PRENOM</TH><TH>ADRESSE</TH><TH>AGE</TH>");
+		out.println("</TR>");
+		out.println("<TR>");
+		out.println("<TD>" + nom + "</TD>");
+		out.println("<TD>" + prenom + "</TD>");
+		out.println("<TD>" + adresse + "</TD>");
+		out.println("<TD>" + age + "</TD>");
+		out.println("</TR>");
+		out.println("</TABLE>");
+		out.println("</BODY>");
+		out.println("</HTML>");
+		out.close();	
+	}
+
+
+}
