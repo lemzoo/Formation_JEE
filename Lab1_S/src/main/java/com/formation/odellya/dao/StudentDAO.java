@@ -4,12 +4,41 @@ import java.util.List;
 
 import com.formation.odellya.model.Student;
 
-
-
+/**
+ * Une interface contenant des méthodes à implémenter dans 
+ * la classe Student. Ici on trouve l'implémentation CRUD : 
+ *  
+ * @author Roland
+ *
+ */
 public interface StudentDAO {
+	/**
+	 * "addStudent" => permet d'ajouter un étudiant dans la base de donnée.
+	 * @param student
+	 */
 	public void addStudent( Student student );
+	
+	/**
+	 * "deleteStudent" => permet de supprimer un etudiant dans la base.
+	 * @param studentId
+	 */
 	public void deleteStudent( int studentId );
+	
+	/**
+	 *  "updateStudent" => permet de faire une mise à jour des informations de l'étudiant.
+	 * @param student
+	 */
 	public void updateStudent( Student student );
+	/**
+	 *  "getAllStudents" => correspond à "READ" et permet de récupérer la liste de tous les étudiants.
+	 * @return List<Student>
+	 */
 	public List<Student> getAllStudents();
+	
+	/**
+	 * "getStudentById" permet de recupérer un étudiant suivant son id fourni en paramtre
+	 * @param studentId
+	 * @return Student
+	 */
 	public Student getStudentById( int studentId );
 }

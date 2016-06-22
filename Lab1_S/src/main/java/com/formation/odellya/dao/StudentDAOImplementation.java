@@ -34,11 +34,11 @@ public class StudentDAOImplementation implements StudentDAO {
 		}
 	}
 	@Override
-	public void deleteStudent( int studentId ) {
+	public void deleteStudent( int id ) {
 		try {
-			String query = "delete from student where studentId=?";
+			String query = "delete from student where id=?";
 			PreparedStatement preparedStatement = conn.prepareStatement(query);
-			preparedStatement.setInt(1, studentId);
+			preparedStatement.setInt(1, id);
 			preparedStatement.executeUpdate();
 			preparedStatement.close();
 		} catch (SQLException e) {
@@ -48,7 +48,7 @@ public class StudentDAOImplementation implements StudentDAO {
 	@Override
 	public void updateStudent( Student student ) {
 		try {
-			String query = "update student set firstName=?, lastName=?, course=?, year=? where studentId=?";
+			String query = "update student set firstName=?, lastName=?, course=?, year=? where id=?";
 			PreparedStatement preparedStatement = conn.prepareStatement( query );
 			preparedStatement.setString( 1, student.getFirstName() );
 			preparedStatement.setString( 2, student.getLastName() );
@@ -69,11 +69,12 @@ public class StudentDAOImplementation implements StudentDAO {
 			ResultSet resultSet = statement.executeQuery( "select * from student" );
 			while( resultSet.next() ) {
 				Student student = new Student();
-				student.setStudentId( resultSet.getInt( "studentId" ) );
+				student.setStudentId( resultSet.getInt( "id" ) );
 				student.setFirstName( resultSet.getString( "firstName" ) );
 				student.setLastName( resultSet.getString( "lastName" ) );
 				student.setCourse( resultSet.getString( "course" ) );
 				student.setYear( resultSet.getInt( "year" ) );
+				System.out.println(student);
 				students.add(student);
 			}
 			resultSet.close();
@@ -84,15 +85,15 @@ public class StudentDAOImplementation implements StudentDAO {
 		return students;
 	}
 	@Override
-	public Student getStudentById(int studentId) {
+	public Student getStudentById(int id) {
 		Student student = new Student();
 		try {
-			String query = "select * from student where studentId=?";
+			String query = "select * from student where id=?";
 			PreparedStatement preparedStatement = conn.prepareStatement( query );
-			preparedStatement.setInt(1, studentId);
+			preparedStatement.setInt(1, id);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while( resultSet.next() ) {
-				student.setStudentId( resultSet.getInt( "studentId" ) );
+				student.setStudentId( resultSet.getInt( "id" ) );
 				student.setFirstName( resultSet.getString( "firstName" ) );
 				student.setLastName( resultSet.getString( "LastName" ) );
 				student.setCourse( resultSet.getString( "course" ) );

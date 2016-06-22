@@ -1,0 +1,19 @@
+package com.formation.odellya.dao;
+
+import java.util.List;
+
+import com.formation.odellya.model.Student;
+
+/**
+ * Une interface contenant des méthodes à implémenter dans 
+ * la classe Student 
+ * @author Roland
+ *
+ */
+public interface StudentDAO {
+	public void addStudent( Student student );
+	public void deleteStudent( int studentId );
+	public void updateStudent( Student student );
+	public List<Student> getAllStudents();
+	public Student getStudentById( int studentId );
+}

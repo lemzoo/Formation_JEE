@@ -28,4 +28,5 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.capgemini.tp.bean.Client"/>
 <fullyQualifiedTypeName name="com.capgemini.tp.service.Service"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>

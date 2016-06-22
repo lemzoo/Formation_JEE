@@ -7,6 +7,7 @@
   <module moduleId="org.eclipse.jst.jee.server:TP_06__JSP_Servlet_Javabean" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_01__Calculateur_JSP" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_S07__Gestion_Session" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Lab1_S" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_03__JSP_Objects_Implicites" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:FirstProject" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_05__JSP_Servlet" serverId="Tomcat v8.0 Server at localhost"/>

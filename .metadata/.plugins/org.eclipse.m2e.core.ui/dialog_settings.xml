@@ -11,6 +11,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TP_D04__Amelioration_V1.0"/>
 			<item value="TP_D03__Amelioration"/>
 			<item value="TP_D02__DataSource_Servlet_JSP"/>
 			<item value="TP_D01__JDBC_Servlet"/>
@@ -25,7 +26,6 @@
 			<item value="TP_S03"/>
 			<item value="TP_07__HttpHeaders"/>
 			<item value="TP_06__JSP_Servlet_Javabean"/>
-			<item value="TP_05__JSP_Servlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -51,6 +51,19 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -63,6 +76,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D03__Amelioration"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D02__DataSource_Servlet_JSP"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D01__JDBC_Servlet\pom.xml"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D01__JDBC_Servlet\src\main\java\com\capgemini\tp\controleur\AfficheServlet.java"/>
