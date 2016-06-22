@@ -1,0 +1,87 @@
+/**
+ * 
+ */
+package com.capgemini.tp.service;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.capgemini.tp.bean.Client;
+import com.capgemini.tp.bean.DataBean;
+
+/**
+ * Cration d'une service en Java 
+ * @author Lamine
+ *
+ */
+public class Service {
+	DataBean db = new DataBean();
+
+	public List<Client> getAllClients() {
+		List<Client> clients = new ArrayList<Client>();
+		try {
+			DataBean db = new DataBean();
+			// Etape 2 : récupération de la connexion
+			Connection con = db.getConnection();
+
+			Statement st = con.createStatement();
+			String sql = "SELECT * FROM client";
+			ResultSet rs = st.executeQuery(sql);
+			while (rs.next()) {
+
+				String nom = rs.getString("nom");
+				String prenom = rs.getString("prenom");
+				String adresse = rs.getString("adresse");
+				String poste = rs.getString("poste");
+
+				clients.add(new Client(nom, prenom, adresse, poste));
+			}
+
+			rs.close();
+			st.close();
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return clients;
+	}
+	
+	public void addClient(String [] client) {
+		try {
+			//Extraction des données du client
+			String nom = client[0];
+			String prenom = client[1];
+			String adresse = client[2];
+			String age = client[3];
+			
+			
+			DataBean db = new DataBean();
+			// Etape 2 : récupération de la connexion
+			Connection con = db.getConnection();
+
+			Statement st = con.createStatement();
+			String query = "INSERT INTO client("+nom + "," + prenom + "," + adresse + "," + age + ")";
+			
+			// create the mysql insert preparedstatement
+		    PreparedStatement preparedStmt = con.prepareStatement(query);
+			
+		 // execute the preparedstatement
+		      preparedStmt.execute();
+
+			st.close();
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

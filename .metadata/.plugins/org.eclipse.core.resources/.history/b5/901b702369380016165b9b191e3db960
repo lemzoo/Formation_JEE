@@ -1,0 +1,33 @@
+<!DOCtype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ajout d'un Client</title>
+</head>
+<body>
+	<section>
+		<b>Information du Client</b>
+		<form name=ajoutClient method="post" action="ajouterClient">
+			<table>
+				<tr>
+					<td>Nom du Client : </td>
+					<td><input type=text name="nomClient"></td>
+				</tr>
+				<tr>
+					<td>Prénom du Client</td>
+					<td><input type=text name="prenomClient"></td>
+				</tr>
+				<tr>
+					<td>Adresse du Client</td>
+					<td><input type=text name="adresse"></td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td><input type=number name="age"></td>
+				</tr>
+			</table>
+			<input type="submit" value="Valider">
+		</form>
+	</section>
+</body>
+</html>

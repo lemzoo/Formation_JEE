@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<description>Amelioration</description>
 
-
+	
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 	</properties>

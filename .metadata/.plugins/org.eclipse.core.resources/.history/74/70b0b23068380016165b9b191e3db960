@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.capgemini.tp</groupId>
+  <artifactId>TP_D04__Amelioration_V1.0</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <description>Dans ce TP, nous allons créer une page HTML contenant un formulaire. Apres remplissage du formulaire, on ajoute les données dans la base. Par la suite, on revient sur la page affichant les données de la base</description>
+</project>

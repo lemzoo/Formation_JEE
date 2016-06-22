@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.capgemini.tp.controleur.ajouterClientServlet.java&apos; to &apos;AjouterClientServlet.java&apos;&#x0D;&#x0A;- Original project: &apos;TP_D04__Amelioration_V1.0&apos;&#x0D;&#x0A;- Original element: &apos;com.capgemini.tp.controleur.ajouterClientServlet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.capgemini.tp.controleur.AjouterClientServlet.java&apos;" description="Rename compilation unit &apos;ajouterClientServlet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.capgemini.tp.controleur{ajouterClientServlet.java" name="AjouterClientServlet.java" references="false" stamp="1466594414548" version="1.0"/>
+</session>

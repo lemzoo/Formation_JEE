@@ -11,6 +11,7 @@
   <module moduleId="org.eclipse.jst.jee.server:FirstProject" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_05__JSP_Servlet" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_S06_Formulaire" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:TP_D04__Amelioration_V1.0" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:CookieProject" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_D01__JDBC_Servlet" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TP_D03__Amelioration" serverId="Tomcat v8.0 Server at localhost"/>

@@ -6,30 +6,30 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="action" key="selection"/>
+		<item value="html" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="HTML"/>
+			<item value="BODY"/>
 			<item value="ACTION"/>
 			<item value="METHOD"/>
 			<item value="VALUE"/>
 			<item value="NAME"/>
 			<item value="CENTER"/>
 			<item value="FORM"/>
-			<item value="TYPE"/>
-			<item value="INPUT"/>
 		</list>
 		<list key="replacehistory">
+			<item value="html"/>
+			<item value="body"/>
 			<item value="action"/>
 			<item value="method"/>
 			<item value="value"/>
 			<item value="name"/>
 			<item value="center"/>
 			<item value="form"/>
-			<item value="type"/>
-			<item value="input"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
