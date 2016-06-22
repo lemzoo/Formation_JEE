@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.bean;
+
+/**
+ * @author Lamine
+ *
+ */
+public class DataBean {
+
+}

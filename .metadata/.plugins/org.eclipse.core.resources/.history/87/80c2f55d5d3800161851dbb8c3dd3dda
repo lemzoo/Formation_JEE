@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.bean;
+
+/**
+ * @author ib
+ *
+ */
+public class DataBean {
+
+}

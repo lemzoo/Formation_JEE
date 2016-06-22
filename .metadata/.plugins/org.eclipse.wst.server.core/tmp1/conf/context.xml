@@ -31,4 +31,12 @@
     <!--
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
+    
+    <!-- Rajout du contexte pour le TP D02 -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<ResourceLink 
+		name="MaConnexion" 
+		global="jdbc/formation"
+		type="javax.sql.DataSource" />
+    
 </Context>

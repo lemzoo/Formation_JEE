@@ -1,6 +1,12 @@
 path=C:\Users\ib\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
 size=100636
 archive=0
+path=C:\Users\ib\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar
+size=414240
+archive=0
 path=C:\Users\ib\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar
 size=95806
+archive=0
+path=C:\Users\ib\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar
+size=983911
 archive=0

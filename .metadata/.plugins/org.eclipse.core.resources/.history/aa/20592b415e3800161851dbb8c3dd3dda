@@ -1,0 +1,99 @@
+package com.capgemini.tp.controleur;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+
+import javax.annotation.Resource;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
+import javax.xml.ws.Action;
+
+import com.capgemini.tp.bean.Client;
+import com.capgemini.tp.bean.DataBean;
+
+
+/**
+ * Servlet implementation class AfficheServlet
+ */
+@WebServlet("/affiche")
+public class AfficheServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AfficheServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		List<Client> clients = new ArrayList<Client>();
+		try{
+			// Remplacement de (2) par (3)
+			//(2)
+			// Localisation JNDI...
+			// Etape 1 : Chargement du driver
+			Context initialContext = new InitialContext();
+			Context localContext = (Context) initialContext.lookup("java:comp/env/");
+			DataSource ds = (DataSource) localContext.lookup("MaConnexion");
+			// Etape 2 : récupération de la connexion
+			Connection con = ds.getConnection();
+
+			//(3)
+			DataBean db=new DataBean();
+			// Etape 2 : récupération de la connexion
+			Connection c = db.getConnection();
+
+			Statement st = (Statement) con.createStatement();
+			String sql = "SELECT * FROM client";
+			ResultSet rs = st.executeQuery(sql);
+			while (rs.next()) {
+
+				String nom = rs.getString("nom");
+				String prenom = rs.getString("prenom");
+				String adresse = rs.getString("adresse");
+				String poste = rs.getString("poste");
+
+				clients.add(new Client(nom, prenom, adresse, poste));
+			}
+
+			rs.close();
+			st.close();
+
+		}catch (SQLException | NamingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		request.setAttribute("clients", clients);
+		// redirection
+		RequestDispatcher disp = request.getRequestDispatcher("ListeClients.jsp");
+		disp.forward(request, response);	
+	}
+}

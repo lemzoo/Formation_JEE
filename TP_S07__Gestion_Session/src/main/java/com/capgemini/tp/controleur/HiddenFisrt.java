@@ -1,0 +1,45 @@
+package com.capgemini.tp.controleur;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HiddenFisrt
+ */
+@WebServlet("/hidFisrt")
+public class HiddenFisrt extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public HiddenFisrt() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String user = request.getParameter("nom");
+		System.out.println("first Name = " + user);
+        PrintWriter pw = response.getWriter();
+        pw.println("<html><body>");
+        pw.println("<h3>Hello! click Validate to proceed</h3>");
+        pw.println("<Form name='login' action='hidSecond'>");
+        
+        /* Add a hidden field. */
+        pw.println("<input type='hidden' name='user' value=" +user+">");
+        pw.println("<input type='Submit' value='Validate'></form>");
+        pw.println("</body>");
+		pw.println("</html>");
+		pw.close();
+	}
+}

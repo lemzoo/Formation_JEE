@@ -37,6 +37,10 @@
          UserDatabaseRealm to authenticate users
     -->
     <Resource auth="Container" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase" pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
+    
+    <!-- Ajout d'uner source de donnée pour acces à la base -->
+    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" name="jdbc/formation" password="root" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/databaseD01" username="root"/>
+  	
   </GlobalNamingResources>
 
   <!-- A "Service" is a collection of one or more "Connectors" that share
@@ -124,7 +128,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\TP_S06_Formulaire" path="/TP_S06_Formulaire" reloadable="true" source="org.eclipse.jst.jee.server:TP_S06_Formulaire"/></Host>
+      <Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\LB_Training\JAVA_EE\eclipse\worksplace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\TP_D02__DataSource_Servlet_JSP" path="/TP_D02__DataSource_Servlet_JSP" reloadable="true" source="org.eclipse.jst.jee.server:TP_D02__DataSource_Servlet_JSP"/></Host>
     </Engine>
   </Service>
 </Server>

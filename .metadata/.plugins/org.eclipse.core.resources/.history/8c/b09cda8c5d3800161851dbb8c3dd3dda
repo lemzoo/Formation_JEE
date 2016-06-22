@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.capgemini.tp.bean;
+
+/**
+ * DataBean est la classe qui permet la connexion à la base de données grâce à
+ * la DataSource "masource"
+ * 
+ * @author Lamine
+ *
+ */
+public class DataBean {
+	/*
+	 * son unique méthode getConnection() renvoie la connexion sous forme d'un
+	 * objet de type Connection
+	 */
+	public Connection getConnection() {
+		Connection con = null;
+		try {
+			Context initialContext = new InitialContext();
+			Context localContext = (Context) initialContext.lookup("java:comp/env/");
+			DataSource ds = (DataSource) localContext.lookup("jdbc/formation");
+			con = ds.getConnection();
+		} catch (NamingException e) {
+			System.out.println("erreur dans databean NamingException");
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.out.println("erreur dans databean SQLException");
+		}
+
+		return con;
+	}
+}

@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.capgemini.tp.service;
+
+/**
+ * @author ib
+ *
+ */
+public class Service {
+DataBean db=new DataBean();
+	
+	public List<Client> getAllClients(){
+		List<Client> clients = new ArrayList<Client>();
+		try {
+			DataBean db=new DataBean();
+			// Etape 2 : récupération de la connexion
+			Connection con = db.getConnection();
+
+
+			Statement st = con.createStatement();
+			String sql = "SELECT * FROM client";
+			ResultSet rs = st.executeQuery(sql);
+			while (rs.next()) {
+
+				String nom = rs.getString("nom");
+				String prenom = rs.getString("prenom");
+				String adresse = rs.getString("adresse");
+				String poste = rs.getString("poste");
+
+				clients.add(new Client(nom, prenom, adresse, poste));
+			}
+
+			rs.close();
+			st.close();
+
+		}  catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		
+		return clients;
+	}
+
+}

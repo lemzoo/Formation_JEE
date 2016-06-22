@@ -1,0 +1,43 @@
+package com.capgemini.tp.controleur;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class SettingCookie
+ */
+@WebServlet("/setCookie")
+public class SettingCookie extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public SettingCookie() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String username = request.getParameter("nom");
+
+		Cookie ck = new Cookie("user", username);
+
+		response.addCookie(ck);
+		PrintWriter pw = response.getWriter();
+		pw.println("Cookie containing user name is stored in your browser.");
+		pw.println("<br>");
+		pw.println("<a href='retCookie'>continue...</a>");
+	}
+
+	}
+
+}
