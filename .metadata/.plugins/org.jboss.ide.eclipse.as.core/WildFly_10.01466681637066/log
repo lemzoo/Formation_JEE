@@ -74,3 +74,353 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 14:55:32.416
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 15:51:35.586
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 15:52:25.622
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 15:52:29.535
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 15:54:00.931
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 15:58:26.529
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 15:58:26.529
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 15:58:27.566
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 15:58:29.276
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:00:05.825
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:00:05.825
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:10:26.812
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:10:26.812
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:10:30.446
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:10:35.409
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:10:37.117
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:11:21.793
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:11:21.793
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:11:27.337
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:11:27.337
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:11:33.933
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:11:33.933
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:11:44.002
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:11:50.962
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:11:52.672
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:13:00.036
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:13:10.472
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:13:12.182
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:14:22.818
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:18:22.280
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:18:24.090
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:33:16.239
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:33:16.239
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:33:20.634
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:33:32.584
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:33:34.296
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:35:47.901
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:35:47.901
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:35:54.262
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:36:01.157
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:36:02.864
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:36:39.598
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:42:11.906
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:42:11.906
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:42:12.957
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:42:14.669
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:42:16.825
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:42:28.286
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:42:28.286
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:42:29.324
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:42:31.036
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:43:07.207
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:43:13.046
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:43:14.756
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:46:18.556
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:46:18.556
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:46:59.349
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:47:05.226
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:47:06.936
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:50:03.420
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:50:15.095
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:50:16.807
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:51:01.721
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:51:01.721
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:51:06.464
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:51:06.464
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:51:19.588
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:51:19.588
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:51:25.187
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:51:31.563
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:51:33.274
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:52:17.168
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:52:17.168
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:52:20.113
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:52:20.113
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:53:54.600
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:53:54.601
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:54:03.002
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:54:03.002
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:54:05.262
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:54:05.262
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:54:07.306
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:54:07.306
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:54:15.864
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:54:15.864
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:55:01.035
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:55:01.035
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:55:04.323
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:55:04.323
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:55:10.856
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:55:10.856
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:55:23.407
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:55:32.484
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:55:34.195
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:58:43.087
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:58:43.087
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:58:51.347
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:58:51.347
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:58:58.518
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:58:58.518
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:59:07.768
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:59:07.768
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 16:59:14.115
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 16:59:19.257
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 16:59:20.966
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 16:59:49.963
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 16:59:49.963
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 17:00:07.453
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 17:00:11.970
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 17:00:13.681
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 17:05:10.599
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 17:05:10.599
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 17:05:14.693
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 17:05:14.693
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 17:06:05.386
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 17:07:50.049
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 17:07:50.049
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 17:07:51.089
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 17:07:52.801
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 17:09:59.606
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 17:10:05.606
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 17:10:07.318
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 17:11:35.916
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 17:11:35.916
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-06-23 17:11:45.999
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-06-23 17:11:45.999
+!MESSAGE Could not delete C:\LB_Training\JAVA_EE\wildfly-10.0.0.Final\standalone\deployments\HelloEJBLifeCycle.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-23 17:11:55.132
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-23 17:12:04.154
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-23 17:12:05.865
+!MESSAGE Server Startup Succeeded

@@ -1,0 +1,8 @@
+package com.capgemini.tp.service;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface ShoppingCart {
+	public String affiche(String param);
+}

@@ -1,0 +1,36 @@
+package com.capgemini.tp.implementation;
+
+import javax.ejb.Stateless;
+import javax.interceptor.AroundInvoke;
+import javax.interceptor.Interceptors;
+import javax.interceptor.InvocationContext;
+
+import com.capgemini.tp.interceptor.Auditor;
+import com.capgemini.tp.service.InterceptorsBeanRemote;
+
+/**
+ * Session Bean implementation class HelloWorldBean
+ */
+@Stateless
+@Interceptors(Auditor.class)
+public class InterceptorsBean implements InterceptorsBeanRemote {
+
+	public String sayHello() {
+		System.out.println("Hello from Lab_7_Interceptors ! ");
+		return "Bonjour de Lab_7_Interceptors ... !";
+	}
+
+	@AroundInvoke
+	public Object methodStats(InvocationContext invctx) throws Exception {
+		String name = invctx.getMethod().getName();
+		long startTime = System.nanoTime();
+		System.out.println("Starting method: " + name);
+		try {
+			return invctx.proceed();
+		} finally {
+			long elapsedTime = System.nanoTime() - startTime;
+			System.out.println("Finished method: " + name + " Method took " + elapsedTime + " nanoseconds to execute");
+		}
+	}
+
+}

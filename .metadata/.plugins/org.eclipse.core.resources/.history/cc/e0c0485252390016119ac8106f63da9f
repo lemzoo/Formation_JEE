@@ -1,0 +1,5 @@
+package com.capgemini.tp.interceptor;
+
+public class Auditor {
+
+}
