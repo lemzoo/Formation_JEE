@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.capgemini.tp.implementation;
+
+import com.capgemini.tp.service.HelloWorldBeanRemote;
+
+/**
+ * @author ib
+ *
+ */
+public class HelloWorldBean implements HelloWorldBeanRemote{
+
+}

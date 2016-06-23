@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.capgemini.tp.service;
+
+/**
+ * Interface HelloWorldBean définit une seule méthode
+ * @author Lamine
+ *
+ */
+public interface HelloWorldBeanRemote {
+	public String sayHello();
+}

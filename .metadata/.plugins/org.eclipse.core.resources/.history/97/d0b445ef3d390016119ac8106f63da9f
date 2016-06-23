@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.client;
+
+/**
+ * @author ib
+ *
+ */
+public class EJBJavaClient {
+
+}

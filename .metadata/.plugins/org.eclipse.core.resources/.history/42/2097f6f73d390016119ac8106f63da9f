@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.client;
+
+/**
+ * @author Lamine
+ *
+ */
+public class EJBJavaClient {
+
+}
