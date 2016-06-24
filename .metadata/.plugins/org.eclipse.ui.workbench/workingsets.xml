@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1466777364105_1" label="Agence_Ticket" name="Agence_Ticket">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Agence_Ticket_EJB_Client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Agence_Ticket_EJB" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1466148025975_0" label="Window Working Set" name="Aggregate for window 1466148025975"/>
 </workingSetManager>

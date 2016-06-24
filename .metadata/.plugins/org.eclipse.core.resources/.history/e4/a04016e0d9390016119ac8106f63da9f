@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.implementation;
+
+/**
+ * @author Lamine
+ *
+ */
+public class TimerSampleBean implements TimerSample{
+
+}

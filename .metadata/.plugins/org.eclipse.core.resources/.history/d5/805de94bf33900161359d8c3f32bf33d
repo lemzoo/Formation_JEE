@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.capgemini.tp.entity;
+
+/**
+ * @author Lamine BA
+ *
+ */
+@Entity(name = "project")
+public class Project {
+
+}

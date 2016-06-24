@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.capgemini.tp.entity;
+
+import java.io.Serializable;
+
+/**
+ * @author Lamine BA
+ *
+ */
+@Entity(name = "project")
+public class Project implements Serializable{
+	@Id
+	private int pnumber;
+	private String pname;
+	private String plocation;
+
+	@Column(name = "dept_no")
+	private int deptNo;
+
+}

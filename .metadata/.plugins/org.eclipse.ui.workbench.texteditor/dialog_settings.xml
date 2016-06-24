@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="id" key="selection"/>
+		<item value="datasources" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&lt;?xml version=&quot;1.0&quot;?&gt;"/>
+			<item value="datasources"/>
+			<item value="package com.capgemini.tp.client;"/>
 			<item value="studentId"/>
 			<item value="HTML"/>
 			<item value="BODY"/>
 			<item value="ACTION"/>
 			<item value="METHOD"/>
-			<item value="VALUE"/>
-			<item value="NAME"/>
-			<item value="CENTER"/>
 		</list>
 		<list key="replacehistory">
 			<item value="id"/>

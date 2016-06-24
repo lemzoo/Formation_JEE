@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.tp.entity;
+
+/**
+ * @author ib
+ *
+ */
+public class Project {
+
+}

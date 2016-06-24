@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.capgemini.tp.entity;
+
+/**
+ * @author Lamine BA
+ *
+ */
+@Entity(name = "project")
+public class Project {
+	@Id
+	private int pnumber;
+	private String pname;
+	private String plocation;
+
+	@Column(name = "dept_no")
+	private int deptNo;
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.tp.client;
+
+public class TimerJavaClient {
+
+}

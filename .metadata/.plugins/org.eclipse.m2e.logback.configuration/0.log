@@ -7171,3 +7171,256 @@ java.lang.NullPointerException: null
 2016-06-23 16:46:32,945 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Lab1_S
 2016-06-23 16:46:32,946 [Worker-187] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Lab1_S
 2016-06-23 16:46:32,950 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:06:14,153 [Worker-670] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 09:06:14,504 [Worker-670] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formation.odellya:Lab1_S:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\pom.xml.
+2016-06-24 09:06:14,988 [Worker-670] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/main/java
+2016-06-24 09:06:14,988 [Worker-670] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Lab1_S/src/main/resources
+2016-06-24 09:06:14,988 [Worker-670] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/test/java
+2016-06-24 09:06:15,158 [Worker-670] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Lab1_S
+2016-06-24 09:06:15,162 [Worker-670] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-06-24 09:06:15,361 [Worker-667] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:06:15,369 [Worker-667] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-06-24 09:06:15,381 [Worker-667] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:06:15,389 [Worker-667] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\src\test\resources
+2016-06-24 09:06:15,390 [Worker-667] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Lab1_S
+2016-06-24 09:06:15,393 [Worker-667] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Lab1_S
+2016-06-24 09:06:15,398 [Worker-667] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:14:21,294 [Worker-663] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 09:14:21,625 [Worker-663] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formation.odellya:Lab1_S:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\pom.xml.
+2016-06-24 09:14:22,067 [Worker-663] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/main/java
+2016-06-24 09:14:22,067 [Worker-663] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Lab1_S/src/main/resources
+2016-06-24 09:14:22,070 [Worker-663] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/test/java
+2016-06-24 09:14:22,245 [Worker-663] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Lab1_S
+2016-06-24 09:14:22,251 [Worker-663] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 09:14:22,482 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:14:22,490 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-06-24 09:14:22,502 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 09:14:22,509 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\src\test\resources
+2016-06-24 09:14:22,509 [Worker-681] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Lab1_S
+2016-06-24 09:14:22,509 [Worker-681] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Lab1_S
+2016-06-24 09:14:22,512 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:41:06,616 [Worker-35] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 11:41:07,394 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formation.odellya:Lab1_S:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\pom.xml.
+2016-06-24 11:41:08,101 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/main/java
+2016-06-24 11:41:08,102 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Lab1_S/src/main/resources
+2016-06-24 11:41:08,102 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/test/java
+2016-06-24 11:41:08,452 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Lab1_S
+2016-06-24 11:41:08,456 [Worker-35] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-06-24 11:41:08,750 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:41:08,766 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-06-24 11:41:08,779 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:41:08,783 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\src\test\resources
+2016-06-24 11:41:08,784 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Lab1_S
+2016-06-24 11:41:08,784 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Lab1_S
+2016-06-24 11:41:08,788 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:48:08,414 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 11:48:08,804 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formation.odellya:Lab1_S:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\pom.xml.
+2016-06-24 11:48:09,254 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/main/java
+2016-06-24 11:48:09,254 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Lab1_S/src/main/resources
+2016-06-24 11:48:09,254 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Lab1_S/src/test/java
+2016-06-24 11:48:09,369 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Lab1_S
+2016-06-24 11:48:09,375 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 11:48:09,675 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:48:09,680 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-06-24 11:48:09,692 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 11:48:09,700 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S\src\test\resources
+2016-06-24 11:48:09,701 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Lab1_S
+2016-06-24 11:48:09,701 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Lab1_S
+2016-06-24 11:48:09,704 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:39:02,581 [Worker-200] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:42:49,945 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.3/maven-ejb-plugin-2.3.jar
+2016-06-24 15:42:49,998 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.3/maven-ejb-plugin-2.3.jar
+2016-06-24 15:42:51,168 [Worker-203] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:42:51,291 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.3/maven-ejb-plugin-2.3.pom
+2016-06-24 15:42:51,321 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.3/maven-ejb-plugin-2.3.pom
+2016-06-24 15:42:51,349 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2016-06-24 15:42:51,377 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2016-06-24 15:42:51,407 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2016-06-24 15:42:51,455 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2016-06-24 15:42:51,553 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom
+2016-06-24 15:42:51,579 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom
+2016-06-24 15:42:51,607 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+2016-06-24 15:42:51,635 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+2016-06-24 15:42:51,661 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
+2016-06-24 15:42:51,686 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
+2016-06-24 15:42:51,744 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
+2016-06-24 15:42:51,773 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
+2016-06-24 15:42:51,881 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar
+2016-06-24 15:42:51,934 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar
+2016-06-24 15:42:51,957 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar
+2016-06-24 15:42:52,032 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.jar
+2016-06-24 15:42:52,055 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar
+2016-06-24 15:42:52,088 [Worker-203] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.jar
+2016-06-24 15:42:52,386 [Worker-203] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/main/java
+2016-06-24 15:42:52,386 [Worker-203] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/main/resources
+2016-06-24 15:42:52,386 [Worker-203] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/test/java
+2016-06-24 15:42:52,387 [Worker-203] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/test/resources
+2016-06-24 15:42:53,268 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:42:53,271 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:42:53,271 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:42:53,274 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:27,283 [Worker-207] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 15:43:27,589 [Worker-207] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:43:27,923 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/main/java
+2016-06-24 15:43:27,925 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/main/resources
+2016-06-24 15:43:27,928 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/test/java
+2016-06-24 15:43:27,928 [Worker-207] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/test/resources
+2016-06-24 15:43:28,054 [Worker-207] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 15:43:28,206 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:28,217 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:28,218 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:28,221 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:29,275 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:29,295 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:29,300 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:29,309 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:32,216 [Worker-203] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 15:43:32,231 [Worker-203] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:43:32,512 [Worker-203] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:43:32,807 [Worker-203] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 15:43:32,994 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:33,012 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:33,013 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:33,023 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:58,910 [Worker-208] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 15:43:59,195 [Worker-208] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:43:59,453 [Worker-208] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/main/java
+2016-06-24 15:43:59,455 [Worker-208] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/main/resources
+2016-06-24 15:43:59,458 [Worker-208] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/test/java
+2016-06-24 15:43:59,460 [Worker-208] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Agence_Ticket_EJB/src/test/resources
+2016-06-24 15:43:59,598 [Worker-208] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 15:43:59,721 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:59,725 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:43:59,729 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:43:59,734 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:44:02,078 [Worker-208] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 15:44:02,086 [Worker-208] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:44:02,355 [Worker-208] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:44:02,615 [Worker-208] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 15:44:02,824 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:44:02,831 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:44:02,833 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:44:02,836 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:45:01,247 [Worker-204] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket
+2016-06-24 15:45:01,247 [Worker-204] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-06-24 15:45:09,808 [Worker-212] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 15:45:09,824 [Worker-212] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:45:10,089 [Worker-212] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:45:10,347 [Worker-212] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 15:45:10,500 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:45:10,509 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:45:10,514 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:45:10,519 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:45:24,111 [Worker-214] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket
+2016-06-24 15:45:24,111 [Worker-214] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean verify
+2016-06-24 15:52:33,343 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:52:33,613 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:52:33,867 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:52:33,872 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:52:33,876 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:52:33,879 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:52:52,756 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:52:53,017 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:52:53,262 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:52:53,267 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:52:53,270 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:52:53,276 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:53:52,877 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 15:53:53,167 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 15:53:53,427 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:53:53,433 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 15:53:53,437 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 15:53:53,441 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:00:52,890 [Worker-216] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:00:53,156 [Worker-216] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:00:53,404 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:00:53,407 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:00:53,410 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:00:53,415 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:00:56,102 [Worker-216] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:00:56,368 [Worker-216] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:00:56,666 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:00:56,672 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:00:56,675 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:00:56,678 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:02:07,854 [Worker-217] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:02:08,121 [Worker-217] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:02:08,595 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:02:08,598 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:02:08,601 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:02:08,606 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:06:55,772 [Worker-230] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 16:06:55,778 [Worker-230] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:06:55,843 [Worker-230] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 16:07:04,725 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:07:31,646 [Worker-231] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:07:35,111 [Worker-234] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 16:07:35,120 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:07:35,188 [Worker-234] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 16:09:06,809 [Worker-230] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 16:09:06,815 [Worker-230] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:09:06,864 [Worker-230] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 16:09:24,654 [Worker-233] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:09:24,702 [Worker-233] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB_Client:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\pom.xml.
+2016-06-24 16:09:25,231 [Worker-233] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB_Client/src/main/java
+2016-06-24 16:09:25,236 [Worker-233] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB_Client/src/test/java
+2016-06-24 16:09:25,285 [Worker-233] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/main/java
+2016-06-24 16:09:25,289 [Worker-233] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/test/java
+2016-06-24 16:09:25,314 [Worker-233] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 1 sec
+2016-06-24 16:09:25,724 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:25,725 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\main\resources
+2016-06-24 16:09:25,726 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:25,726 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\test\resources
+2016-06-24 16:09:25,754 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:25,754 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\main\resources
+2016-06-24 16:09:25,754 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:25,754 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\test\resources
+2016-06-24 16:09:51,103 [Worker-231] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 16:09:51,126 [Worker-231] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml.
+2016-06-24 16:09:51,364 [Worker-231] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:09:51,410 [Worker-231] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB_Client:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\pom.xml.
+2016-06-24 16:09:51,597 [Worker-231] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/main/java
+2016-06-24 16:09:51,597 [Worker-231] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB/src/test/java
+2016-06-24 16:09:51,617 [Worker-231] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB_Client/src/main/java
+2016-06-24 16:09:51,617 [Worker-231] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Agence_Ticket_EJB_Client/src/test/java
+2016-06-24 16:09:51,683 [Worker-231] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 16:09:51,869 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:51,875 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\main\resources
+2016-06-24 16:09:51,877 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:51,880 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\test\resources
+2016-06-24 16:09:52,078 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:52,078 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\main\resources
+2016-06-24 16:09:52,078 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:09:52,081 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\test\resources
+2016-06-24 16:10:05,972 [Worker-231] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\pom.xml.
+2016-06-24 16:10:05,996 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:10:05,996 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\main\resources
+2016-06-24 16:10:05,998 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:10:06,000 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB\src\test\resources
+2016-06-24 16:10:21,637 [Worker-235] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.tp:Agence_Ticket_EJB_Client:1.0-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\pom.xml.
+2016-06-24 16:10:21,668 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:10:21,670 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\main\resources
+2016-06-24 16:10:21,674 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-24 16:10:21,676 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\Agence_Ticket_EJB_Client\src\test\resources
+2016-06-24 16:11:37,316 [Worker-236] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: toto:TestParent:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\TestParent\pom.xml.
+2016-06-24 16:12:39,200 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: toto:TestFils:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\TestFils\pom.xml.
+2016-06-24 16:12:39,482 [Worker-219] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestFils/src/main/java
+2016-06-24 16:12:39,484 [Worker-219] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TestFils/src/main/resources
+2016-06-24 16:12:39,486 [Worker-219] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestFils/src/test/java
+2016-06-24 16:12:39,487 [Worker-219] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TestFils/src/test/resources
+2016-06-24 16:12:39,982 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:12:39,986 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:12:39,987 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:12:39,992 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:12:59,566 [Worker-234] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-24 16:12:59,624 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: toto:TestFils:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\TestFils\pom.xml.
+2016-06-24 16:12:59,625 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: toto:TestParent:0.0.1-SNAPSHOT @ C:\LB_Training\JAVA_EE\eclipse\worksplace\TestParent\pom.xml.
+2016-06-24 16:12:59,870 [Worker-234] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestFils/src/main/java
+2016-06-24 16:12:59,872 [Worker-234] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TestFils/src/main/resources
+2016-06-24 16:12:59,874 [Worker-234] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestFils/src/test/java
+2016-06-24 16:12:59,874 [Worker-234] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TestFils/src/test/resources
+2016-06-24 16:12:59,933 [Worker-234] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-06-24 16:13:00,108 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:13:00,114 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-06-24 16:13:00,115 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-24 16:13:00,127 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -9,3 +9,6 @@
 1466690063246	Rename resource 'HelloEJBLifeCycle'
 1466691901748	Delete resource 'InjectionEJB'
 1466691903086	Delete resource 'InjectionEJBClient'
+1466777211319	Delete resource 'Agence_Ticket_EJB'
+1466777606283	Delete resource 'TestParent'
+1466777610333	Delete resource 'TestFils'

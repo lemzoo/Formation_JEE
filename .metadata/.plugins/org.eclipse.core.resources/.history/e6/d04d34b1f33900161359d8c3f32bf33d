@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package com.capgemini.tp.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+/**
+ * @author Lamine BA
+ *
+ */
+@Entity(name = "project")
+public class Project implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	@Id
+	private int pnumber;
+	private String pname;
+	private String plocation;
+
+	@Column(name = "dept_no")
+	private int deptNo;
+	
+	/**
+	 * Default Constructor
+	 */
+	public Project() {
+		super();
+	}
+
+	
+}

@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.capgemini.tp.implementation;
+
+import com.capgemini.tp.service.TimerSample;
+
+/**
+ * @author Lamine
+ *
+ */
+public class TimerSampleBean implements TimerSample{
+	@Resource
+	private SessionContext ctx;
+
+	@Override
+	public void scheduleTimer(long milliseconds) {
+		// TODO Auto-generated method stub
+		ctx.getTimerService().createTimer(
+				new Date(new Date().getTime() + milliseconds), "Hello World");
+	}
+
+	@Override
+	public String checkTimerStatus() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Timeout
+	public void timeoutHandler(Timer timer) {
+		System.out.println("---------------------");
+		System.out.println("* Received Timer event: " + timer.getInfo());
+		System.out.println("---------------------");
+
+		timer.cancel();
+	}
+
+	
+}

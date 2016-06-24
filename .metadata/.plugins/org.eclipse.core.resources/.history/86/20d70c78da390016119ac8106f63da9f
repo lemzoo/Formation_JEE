@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package com.capgemini.tp.implementation;
+
+import java.util.Collection;
+import java.util.Date;
+import java.util.Iterator;
+import javax.annotation.Resource;
+import javax.ejb.SessionContext;
+import javax.ejb.Stateless;
+import javax.ejb.Timeout;
+import javax.ejb.Timer;
+
+import com.capgemini.tp.service.TimerSample;
+
+/**
+ * @author Lamine
+ *
+ */
+public class TimerSampleBean implements TimerSample {
+	@Resource
+	private SessionContext ctx;
+
+	public void scheduleTimer(long milliseconds) {
+		ctx.getTimerService().createTimer(
+				new Date(new Date().getTime() + milliseconds), "Hello World");
+	}
+
+	@Timeout
+	public void timeoutHandler(Timer timer) {
+		System.out.println("---------------------");
+		System.out.println("* Received Timer event: " + timer.getInfo());
+		System.out.println("---------------------");
+
+		timer.cancel();
+	}
+	
+	@Override
+    public String checkTimerStatus() {
+        Timer timer = null;
+        Collection<Timer> timers = ctx.getTimerService().getTimers();
+        Iterator<Timer> iterator = timers.iterator();
+        while (iterator.hasNext()) {
+            timer = iterator.next();
+            return ("Timer will expire after " +
+                    timer.getTimeRemaining() + " milliseconds.");
+        }
+        return ("No timer found");
+    }
+
+}

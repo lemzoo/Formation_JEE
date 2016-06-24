@@ -1,0 +1,54 @@
+package com.capgemini.tp.client;
+
+import javax.naming.Context;
+import javax.naming.NamingException;
+
+public class TimerJavaClient {
+
+	public static void main(String[] args) {
+		TimerSample bean = doLookup();
+		// 4. Appel du service
+		// starts the timer
+		bean.scheduleTimer(5000);
+		System.out.println(bean.checkTimerStatus());
+	}
+
+	private static TimerSample doLookup() {
+		Context context = null;
+		TimerSample bean = null;
+		try {
+			// 1. Obtenir le context
+			context = ClientUtil.getInitialContext();
+			// 2. Generate JNDI Lookup name
+			String lookupName = getLookupName();
+			// 3. Lookup and cast
+			bean = (TimerSample) context.lookup(lookupName);
+
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+		return bean;
+	}
+
+	private static String getLookupName() {
+		// nom ear
+		String appName = "";
+
+		//nom du jar ejb (nom du projet dans eclipse par défaut)
+		String moduleName = "TimerEJB";
+
+		//nom optionnel JBoss7
+		String distinctName = "";
+
+		// Nom de la classe implementant le EJB
+		String beanName = TimerSampleBean.class.getSimpleName();
+
+		// Nom complet de l'interface
+	     final String interfaceName = TimerSample.class.getName();
+
+		// Create a look up string name
+		String name = "ejb:" + appName + "/" + moduleName + "/" 
+                       + distinctName + "/" + beanName + "!" + interfaceName;
+
+		return name;
+	}

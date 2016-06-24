@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.capgemini.tp.implementation;
+
+import com.capgemini.tp.service.IProject;
+
+/**
+ * @author ib
+ *
+ */
+public class ProjectBean implements IProject{
+
+}

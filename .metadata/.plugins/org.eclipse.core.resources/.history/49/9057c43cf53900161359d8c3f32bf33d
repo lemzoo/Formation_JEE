@@ -1,0 +1,13 @@
+package com.capgemini.tp.client;
+
+import javax.naming.Context;
+import javax.naming.NamingException;
+
+import com.capgemini.tp.implementation.TimerSampleBean;
+import com.capgemini.tp.service.TimerSample;
+import com.capgemini.tp.util.EJBApplicationUtil;
+
+public class EJBApplicationClient {
+
+	
+	}

@@ -1,0 +1,7 @@
+package com.capgemini.tp.service;
+
+public interface IProject {
+	void saveProject(Project project);
+    Project findProject(Project project);
+    List<Project> retrieveAllProjects();
+}

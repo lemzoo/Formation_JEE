@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="toto"/>
 			<item value="com.capgemini.tp"/>
 			<item value="com.capgemini.tp.JSP_Servlet"/>
 			<item value="com.capgemini.tp.labj4"/>
@@ -9,8 +10,14 @@
 			<item value="com.capgemini.tp.jee"/>
 		</list>
 		<list key="name">
+			<item value="Agence_Ticket_EJB"/>
+			<item value="Agence_Ticket"/>
 		</list>
 		<list key="artifactId">
+			<item value="TestFils"/>
+			<item value="TestParent"/>
+			<item value="Agence_Ticket_EJB"/>
+			<item value="Agence_Ticket"/>
 			<item value="TP_D04__Amelioration_V1.0"/>
 			<item value="TP_D03__Amelioration"/>
 			<item value="TP_D02__DataSource_Servlet_JSP"/>
@@ -22,10 +29,6 @@
 			<item value="TP_S06_Formulaire"/>
 			<item value="TP_S05__Recuperer_Attribut"/>
 			<item value="TP_S04__Initialisation_Globale"/>
-			<item value="TP_S03_Initialisation_Servlet"/>
-			<item value="TP_S03"/>
-			<item value="TP_07__HttpHeaders"/>
-			<item value="TP_06__JSP_Servlet_Javabean"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -53,6 +56,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket_EJB"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Lab1_S"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -76,6 +81,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TestParent"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket"/>
+			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\Agence_Ticket\pom.xml"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D03__Amelioration"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D02__DataSource_Servlet_JSP"/>
 			<item value="C:\LB_Training\JAVA_EE\eclipse\worksplace\TP_D01__JDBC_Servlet\pom.xml"/>
